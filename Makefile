@@ -1,6 +1,6 @@
 CC = gcc
 
-FLAGS = -lm
+FLAGS = -lm -pthread
 
 SRC_DIR = src
 OBJ_DIR = obj
