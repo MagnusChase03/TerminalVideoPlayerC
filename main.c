@@ -16,7 +16,7 @@ int main() {
         char filepath[200];
         sprintf(filepath, "data/frames/output%d.png", i);
 
-        Frame f = readFrame(filepath, 2960, 8);
+        Frame f = readFrame(filepath, i, 8);
         frames[i - 1] = f;
     
     }
