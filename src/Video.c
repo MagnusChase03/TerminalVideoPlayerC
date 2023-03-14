@@ -87,8 +87,8 @@ void playVideo(Video v) {
     for (int i = 0; i < v.totalFrames; i++) {
 
         double sleepTime = (double) 1.0 / v.fps * 1000000.0;
-        printf("\e[1;1H\e[2J");
         usleep(sleepTime);
+        printf("\e[1;1H\e[2J");
         showFrame(v.frames[i]);
 
     } 
